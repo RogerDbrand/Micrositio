@@ -1174,6 +1174,698 @@ h6 {
 
 
 /*--------------------------------------------------------------
+# Competencia Seccion
+--------------------------------------------------------------*/
+#competencia {
+  width: 100%;
+  height: 100%;
+  background: url("../img/competencia/BannerCDD.gif") top center no-repeat;
+  background-size: contain;
+  position: relative;
+  padding: 500px 0 0 0;
+  background-position: center 100px;
+}
+
+@media (max-width: 1280px) {
+  #competencia {
+  width: 100%;
+  height: auto%;
+  background: url("../img/competencia/BannerCDD.gif") top center;
+  background-size: cover;
+  position: relative;
+  padding: 400px 0 0 0;
+}
+}
+
+
+#competencia:before {
+  content: "";
+  background: rgba(255, 255, 255, 0);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#competencia .container {
+  margin-top: 150px;
+}
+
+#competencia h1 {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #124265;
+  font-family: "Roboto", sans-serif;
+}
+
+#competencia h2 {
+  color: #5e5e5e;
+  margin: 10px 0 0 0;
+  font-size: 22px;
+}
+
+#competencia .btn-get-started {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 14px 50px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: #2487ce;
+}
+
+#competencia .btn-get-started:hover {
+  background: #3194db;
+}
+
+#competencia .icon-boxes {
+  margin-top: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (min-width: 1500px) {
+  .competencia .icon-boxes:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(50% + 20px);
+    background-color: #fff;
+  }
+}
+
+#competencia .icon-box {
+  width: 100%;
+  padding: 30px 50px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.50);
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+#competencia .img-icon {
+  width: 100px; 
+  height: 70px;
+}
+
+
+
+
+#competencia .icon-box .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+#competencia .icon-box .title a {
+  color: #013549;
+  transition: 0.3s;
+}
+
+#competencia .icon-box .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+#competencia .icon-box .icon {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  font-size: 40px;
+  line-height: 1;
+  color: #2487ce;
+}
+
+#competencia .icon-box:hover,
+#competencia .icon-box:hover .img-icon {
+  transform: scale(1.08);
+}
+
+#competencia .icon-box:hover .title a {
+  color: #00d6db;
+}
+
+@media (min-width: 1024px) {
+  #competencia {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-height: 800px) {
+  #competencia {
+    height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  #competencia {
+    height: auto;
+  }
+
+  #competencia h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #competencia h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+#competencia .cta-btn1 {
+  width: 100%;
+  background: #afc132;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 8px;
+  border-radius: 10px;
+  border: 2px solid #afc132;
+  transition: 0.5s;
+  margin-top: 10px;
+  color: #013549;
+}
+
+#competencia .cta-btn1 i{
+  font-size: 20px;
+  color: #fff;
+}
+
+#competencia .cta-btn1:hover {
+  background: #00d6db;
+  color: #fff;
+  border: 2px solid #00d6db;
+}
+
+
+#competencia .cta-btn2 {
+  width: 100%;
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 8px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  transition: 0.5s;
+  margin-top: 10px;
+  color: #013549;
+}
+
+#competencia .cta-btn2 i{
+  font-size: 20px;
+  color: #afc132;
+}
+
+#competencia .cta-btn2:hover {
+  background: #00d6db;
+  color: #fff;
+  border: 2px solid #00d6db;
+}
+
+#competencia .cta-btn2:hover i {
+  color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Recursos Seccion
+--------------------------------------------------------------*/
+#recursos {
+  width: 100%;
+  height: 100%;
+  background: url("../img/recurso/BannerRecursos.gif") top center no-repeat;
+  background-size: contain;
+  position: relative;
+  padding: 500px 0 0 0;
+  background-position: center 100px;
+}
+
+@media (max-width: 1280px) {
+  #recursos {
+  width: 100%;
+  height: auto%;
+  background: url("../img/recurso/BannerRecursos.gif") top center;
+  background-size: cover;
+  position: relative;
+  padding: 400px 0 0 0;
+}
+}
+
+
+#recursos:before {
+  content: "";
+  background: rgba(255, 255, 255, 0);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#recursos .container {
+  margin-top: 150px;
+}
+
+#recursos h1 {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #124265;
+  font-family: "Roboto", sans-serif;
+}
+
+#recursos h2 {
+  color: #5e5e5e;
+  margin: 10px 0 0 0;
+  font-size: 22px;
+}
+
+#recursos .btn-get-started {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 14px 50px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: #2487ce;
+}
+
+#recursos .btn-get-started:hover {
+  background: #3194db;
+}
+
+#recursos .icon-boxes {
+  margin-top: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (min-width: 1500px) {
+  .recursos .icon-boxes:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(50% + 20px);
+    background-color: #fff;
+  }
+}
+
+#recursos .icon-box {
+  width: 100%;
+  padding: 30px 50px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.50);
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+#recursos .img-icon {
+  width: 100px; 
+  height: 70px;
+}
+
+
+
+
+#recursos .icon-box .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+#recursos .icon-box .title a {
+  color: #013549;
+  transition: 0.3s;
+}
+
+#recursos .icon-box .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+#recursos .icon-box .icon {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  font-size: 40px;
+  line-height: 1;
+  color: #2487ce;
+}
+
+#recursos .icon-box:hover,
+#recursos .icon-box:hover .img-icon {
+  transform: scale(1.08);
+}
+
+#recursos .icon-box:hover .title a {
+  color: #00d6db;
+}
+
+@media (min-width: 1024px) {
+  #recursos {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-height: 800px) {
+  #recursos {
+    height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  #recursos {
+    height: auto;
+  }
+
+  #recursos h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #recursos h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+#recursos .cta-btn1 {
+  width: 100%;
+  background: #afc132;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 8px;
+  border-radius: 10px;
+  border: 2px solid #afc132;
+  transition: 0.5s;
+  margin-top: 10px;
+  color: #013549;
+}
+
+#recursos .cta-btn1 i{
+  font-size: 20px;
+  color: #fff;
+}
+
+#recursos .cta-btn1:hover {
+  background: #00d6db;
+  color: #fff;
+  border: 2px solid #00d6db;
+}
+
+
+#recursos .cta-btn2 {
+  width: 100%;
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 8px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  transition: 0.5s;
+  margin-top: 10px;
+  color: #013549;
+}
+
+#recursos .cta-btn2 i{
+  font-size: 20px;
+  color: #afc132;
+}
+
+#recursos .cta-btn2:hover {
+  background: #00d6db;
+  color: #fff;
+  border: 2px solid #00d6db;
+}
+
+#recursos .cta-btn2:hover i {
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Soporte Seccion
+--------------------------------------------------------------*/
+#soporte {
+  width: 100%;
+  height: 100%;
+  background: url("../img/soporte/BannerSoporte.gif") top center no-repeat;
+  background-size: contain;
+  position: relative;
+  padding: 500px 0 0 0;
+  background-position: center 110px;
+}
+
+@media (max-width: 1280px) {
+  #soporte {
+  width: 100%;
+  height: auto%;
+  background: url("../img/soporte/BannerSoporte.gif") top center;
+  background-size: cover;
+  position: relative;
+  padding: 400px 0 0 0;
+}
+}
+
+
+#soporte:before {
+  content: "";
+  background: rgba(255, 255, 255, 0);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#soporte .container {
+  margin-top: 150px;
+}
+
+#soporte h1 {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #124265;
+  font-family: "Roboto", sans-serif;
+}
+
+#soporte h2 {
+  color: #5e5e5e;
+  margin: 10px 0 0 0;
+  font-size: 22px;
+}
+
+#soporte .btn-get-started {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  padding: 14px 50px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: #2487ce;
+}
+
+#soporte .btn-get-started:hover {
+  background: #3194db;
+}
+
+#soporte .icon-boxes {
+  margin-top: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (min-width: 1500px) {
+  .soporte .icon-boxes:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(50% + 20px);
+    background-color: #fff;
+  }
+}
+
+#soporte .icon-box {
+  width: 100%;
+  padding: 30px 50px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.50);
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+#soporte .img-icon {
+  width: 100px; 
+  height: 70px;
+}
+
+
+
+
+#soporte .icon-box .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+#soporte .icon-box .title a {
+  color: #013549;
+  transition: 0.3s;
+}
+
+#soporte .icon-box .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+#soporte .icon-box .icon {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  font-size: 40px;
+  line-height: 1;
+  color: #2487ce;
+}
+
+#soporte .icon-box:hover,
+#soporte .icon-box:hover .img-icon {
+  transform: scale(1.08);
+}
+
+#soporte .icon-box:hover .title a {
+  color: #00d6db;
+}
+
+@media (min-width: 1024px) {
+  #soporte {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-height: 800px) {
+  #soporte {
+    height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  #soporte {
+    height: auto;
+  }
+
+  #soporte h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #soporte h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+#soporte .cta-btn1 {
+  width: 100%;
+  background: #afc132;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 8px;
+  border-radius: 10px;
+  border: 2px solid #afc132;
+  transition: 0.5s;
+  margin-top: 10px;
+  color: #013549;
+}
+
+#soporte .cta-btn1 i{
+  font-size: 20px;
+  color: #fff;
+}
+
+#soporte .cta-btn1:hover {
+  background: #00d6db;
+  color: #fff;
+  border: 2px solid #00d6db;
+}
+
+
+#soporte .cta-btn2 {
+  width: 100%;
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 8px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  transition: 0.5s;
+  margin-top: 10px;
+  color: #013549;
+}
+
+#soporte .cta-btn2 i{
+  font-size: 20px;
+  color: #afc132;
+}
+
+#soporte .cta-btn2:hover {
+  background: #00d6db;
+  color: #fff;
+  border: 2px solid #00d6db;
+}
+
+#soporte .cta-btn2:hover i {
+  color: #fff;
+}
+
+
+/*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
@@ -1820,6 +2512,92 @@ section {
   border-color: #00d6db;
 }
 
+
+/*--------------------------------------------------------------
+# cdd
+--------------------------------------------------------------*/
+
+.cdd {
+  width: 100%;
+  height: auto%;
+  padding: 0px 10px 10px 10px;
+}
+
+@media (max-width: 1280px) {
+  #cdd {
+  width: 100%;
+  height: 100%;
+}
+}
+
+
+
+.cdd .service-item {
+  padding: 40px;
+  height: 100%;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.15);
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  z-index: 1;
+
+}
+
+.cdd .service-item .icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+
+
+.cdd .service-item .icon {
+
+  color: #00d6db;
+  font-size: 56px;
+  transition: ease-in-out 0.3s;
+  z-index: 2;
+  position: relative;
+}
+
+
+
+.cdd .service-item h3 {
+  color: #013549;
+  font-weight: 700;
+  margin: 0 0 10px 10px;
+  padding-bottom: 1px;
+  font-size: 22px;
+  position: relative;
+  display: inline-block;
+  border-bottom: 4px solid #eeeeee;
+  transition: 0.3s;
+}
+
+
+
+.cdd .service-item p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.cdd .service-item .readmore {
+  margin-top: 15px;
+  display: inline-block;
+  color: var(--color-primary);
+}
+
+.cdd .service-item:hover .icon:before {
+  background: #013549;
+}
+
+.cdd .service-item:hover h3 {
+  border-color: #00d6db;
+}
+
+
 /*--------------------------------------------------------------
 # objetives
 --------------------------------------------------------------*/
@@ -1957,6 +2735,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  margin: 0 50px;
 }
 
 .portfolio .portfolio-wrap::before {
