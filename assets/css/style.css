@@ -1920,8 +1920,8 @@ section {
 
 .section-title p {
   margin-bottom: 0;
-  font-size: 14px;
-  color: #919191;
+  font-size: 18px;
+  color: #3d3d3d;
 }
 
 /*--------------------------------------------------------------
@@ -2658,7 +2658,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #2487ce;
+  background: #013549;
   background-size: cover;
   padding: 60px 0;
 }
@@ -3128,8 +3128,9 @@ section {
 }
 
 .faq .faq-list li {
-  padding: 20px;
+  padding: 10px;
   background: #fff;
+  border:solid 1px #cfcfcf;
   border-radius: 4px;
   position: relative;
 }
@@ -3139,6 +3140,8 @@ section {
   position: relative;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  color: #00b1c0;
+  font-weight: 700!important;
   line-height: 24px;
   font-weight: 500;
   padding: 0 30px;
@@ -3150,8 +3153,8 @@ section {
   font-size: 24px;
   position: absolute;
   right: 0;
-  left: 20px;
-  color: #87c1ea;
+  left: 10px;
+  color: #00b1c0;
 }
 
 .faq .faq-list .icon-show,
@@ -3164,7 +3167,7 @@ section {
 
 .faq .faq-list p {
   margin-bottom: 0;
-  padding: 10px 0 0 0;
+  padding: 10px 0 0 20px;
 }
 
 .faq .faq-list .icon-show {
@@ -3172,15 +3175,19 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #343a40;
+  color: #013549;
+  font-weight: 700;
 }
+
 
 .faq .faq-list a.collapsed:hover {
   color: #2487ce;
+  font-weight: 700;
 }
 
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
+  color: #00b1c0;
 }
 
 .faq .faq-list a.collapsed .icon-close {
