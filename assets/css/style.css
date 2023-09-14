@@ -343,7 +343,7 @@ h6 {
 }
 
 .container2 p{
-    font-size: 16px;
+    font-size: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1869,7 +1869,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 80px 50px;
+  padding: 80px 60px;
   overflow: hidden;
 }
 
@@ -2576,6 +2576,18 @@ section {
 }
 
 
+.cdd .img-btn{
+width: 300px;
+height: auto;
+border-radius: 5px;
+}
+
+.cdd .img-btn:hover{
+border-radius: 5px;
+border: solid 2px #00d6db;
+transition: 0.5s;
+}
+
 
 .cdd .service-item p {
   line-height: 24px;
@@ -2606,7 +2618,7 @@ section {
 --------------------------------------------------------------*/
 
 .objetives {
-  padding: 60px 0;
+  padding: 60px 20px;
 }
 
 .objetives .objetive-item {
@@ -2653,7 +2665,28 @@ section {
 }
 
 
+.objetives .img-btn{
+width: 1000px;
+height: auto;
 
+}
+
+.objetives .img-btn:hover{
+transform: scale(1.08);
+transition: 0.5s;
+}
+
+.objetives .img-btn2{
+width: 100%;
+height: auto;
+padding: 0 50px;
+
+}
+
+.objetives .img-btn2:hover{
+transform: scale(1.08);
+transition: 0.5s;
+}
 
 
 /*--------------------------------------------------------------
@@ -2694,6 +2727,7 @@ section {
 .cta img:hover {
   border-radius: 20px;
   border: solid 3px #00b1c0;
+  transition: 0.5s;
 }
 
 
@@ -3184,7 +3218,7 @@ section {
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq .faq-list {
-  padding: 0;
+  padding: 20px;
 }
 
 .faq .faq-list ul {
@@ -3198,14 +3232,14 @@ section {
 
 .faq .faq-list li {
   padding: 0px;
-  background: #f8fbfe;
   border-radius: 5px;
   border-radius: 4px;
   position: relative;
 }
 
 
-.faq .faq-list a {
+
+.faq .faq-list .list  {
     display: block;
     position: relative;
     font-family: "Roboto", sans-serif;
@@ -3256,7 +3290,7 @@ section {
 .faq .faq-list a.collapsed{
   color: #013549;
   background-color:#fff;
-  font-weight: 700;
+  font-weight: 600!important;
 }
 
 
