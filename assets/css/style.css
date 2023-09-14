@@ -343,7 +343,7 @@ h6 {
 }
 
 .container2 p{
-    font-size: 12px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -848,7 +848,7 @@ h6 {
 }
 
 #hero .icon-box:hover,
-#hero .icon-box:hover .img-icon {
+#hero .icon-box:hover .img-icon .img-fluid {
   transform: scale(1.08);
 }
 
@@ -1869,7 +1869,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 80px 0;
+  padding: 80px 50px;
   overflow: hidden;
 }
 
@@ -1920,7 +1920,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 16px;
   color: #3d3d3d;
 }
 
@@ -2494,7 +2494,7 @@ section {
 
 .services .service-item p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 
@@ -2579,7 +2579,8 @@ section {
 
 .cdd .service-item p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 18px;
+  color: #3d3d3d;
   margin-bottom: 0;
 }
 
@@ -2598,6 +2599,8 @@ section {
 }
 
 
+
+
 /*--------------------------------------------------------------
 # objetives
 --------------------------------------------------------------*/
@@ -2606,8 +2609,8 @@ section {
   padding: 60px 0;
 }
 
-..objetives .objetive-item {
-  padding: 100px;
+.objetives .objetive-item {
+  padding: 0 20px;
   background: #fff;
   height: 100%;
   border-radius: 10px;
@@ -2645,10 +2648,9 @@ section {
 .objetives .objetive-item p {
   line-height: 24px;
   font-size: 16px;
+  color: #3d3d3d;
   margin-bottom: 0;
 }
-
-
 
 
 
@@ -2659,8 +2661,10 @@ section {
 --------------------------------------------------------------*/
 .cta {
   background: #013549;
-  background-size: cover;
-  padding: 60px 0;
+  background-size: contain;
+  position: relative;
+  padding: 10px 0 0 0;
+  background-position: center 10px;
 }
 
 .cta h3 {
@@ -2669,9 +2673,74 @@ section {
   font-weight: 700;
 }
 
+.cta h2 {
+  color: #fff;
+}
+
+.cta .section-title{
+  padding: 0;
+}
+
 .cta p {
   color: #fff;
 }
+.cta img{
+  border-radius: 20px;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.50);
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.cta img:hover {
+  border-radius: 20px;
+  border: solid 3px #00b1c0;
+}
+
+
+#cta .icon-boxes {
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (min-width: 1500px) {
+  .cta .icon-boxes:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(50% + 20px);
+    background-color: #fff;
+  }
+}
+
+#cta .icon-box {
+  width: 100%;
+  padding: 30px 50px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.50);
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+#cta i {
+    z-index: 2;
+    position: absolute;
+    top: 1%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: #00b1c0;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 50%;
+    font-size: 35px;
+}
+
+
+
 
 .cta .cta-btn {
   font-family: "Roboto", sans-serif;
@@ -2803,7 +2872,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   padding: 0;
   margin: 0;
@@ -3115,7 +3184,7 @@ section {
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq .faq-list {
-  padding: 0 100px;
+  padding: 0;
 }
 
 .faq .faq-list ul {
@@ -3124,36 +3193,41 @@ section {
 }
 
 .faq .faq-list li+li {
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .faq .faq-list li {
-  padding: 10px;
-  background: #fff;
-  border:solid 1px #cfcfcf;
+  padding: 0px;
+  background: #f8fbfe;
+  border-radius: 5px;
   border-radius: 4px;
   position: relative;
 }
 
+
 .faq .faq-list a {
-  display: block;
-  position: relative;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  color: #00b1c0;
-  font-weight: 700!important;
-  line-height: 24px;
-  font-weight: 500;
-  padding: 0 30px;
-  outline: none;
-  cursor: pointer;
+    display: block;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    background-color: #00b1c0;
+    font-size: 16px;
+    color: #fff;
+    border:solid 1px #cfcfcf;
+    border-radius: 5px;
+    font-weight: 700!important;
+    line-height: 24px;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+    margin: 0 0 0 30px;
+    padding: 8px;
 }
 
 .faq .faq-list .icon-help {
   font-size: 24px;
   position: absolute;
-  right: 0;
-  left: 10px;
+  top: 8px;
+  left: 3px;
   color: #00b1c0;
 }
 
@@ -3162,20 +3236,26 @@ section {
   font-size: 24px;
   position: absolute;
   right: 0;
-  top: 0;
+  top: 8px;
 }
 
 .faq .faq-list p {
   margin-bottom: 0;
-  padding: 10px 0 0 20px;
+}
+
+.faq .faq-list div{
+  margin: 10px 10px 10px 45px;
+  padding: 10px;
+  background-color: #fff;
 }
 
 .faq .faq-list .icon-show {
   display: none;
 }
 
-.faq .faq-list a.collapsed {
+.faq .faq-list a.collapsed{
   color: #013549;
+  background-color:#fff;
   font-weight: 700;
 }
 
