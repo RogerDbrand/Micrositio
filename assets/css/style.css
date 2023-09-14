@@ -1866,6 +1866,85 @@ h6 {
 
 
 /*--------------------------------------------------------------
+# Docente Seccion
+--------------------------------------------------------------*/
+#docente {
+  width: 100%;
+  height: auto;
+  background: url("../img/docente/Banner-Docente.jpg") top center no-repeat;
+  background-size: contain;
+  position: relative;
+  padding: 480px 0 0 0;
+  background-position: center 110px;
+}
+
+@media (max-width: 1280px) {
+  #docente {
+  width: 100%;
+  height: auto%;
+  background: url("../img/docente/Banner-Docente.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 400px 0 0 0;
+}
+}
+
+
+#docente:before {
+  content: "";
+  background: rgba(255, 255, 255, 0);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#docente .container {
+  margin-top: 150px;
+}
+
+/*--------------------------------------------------------------
+# Estudiante Seccion
+--------------------------------------------------------------*/
+#estudiante {
+  width: 100%;
+  height: auto;
+  background: url("../img/estudiante/Banner-Estudiantes.jpg") top center no-repeat;
+  background-size: contain;
+  position: relative;
+  padding: 480px 0 0 0;
+  background-position: center 110px;
+}
+
+@media (max-width: 1280px) {
+  #estudiante {
+  width: 100%;
+  height: auto%;
+  background: url("../img/estudiante/Banner-Estudiantes.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 400px 0 0 0;
+}
+}
+
+
+#estudiante:before {
+  content: "";
+  background: rgba(255, 255, 255, 0);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#estudiante .container {
+  margin-top: 150px;
+}
+
+
+/*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
@@ -1904,8 +1983,8 @@ section {
 .section-title2 h2 {
   font-size: 32px;
   font-weight: bold;
-  margin-bottom: 20px;
-  padding-bottom: 0;
+  margin-bottom: 10px;
+  padding: 20px 0 0 0;
   color: #124265;
 }
 
@@ -1917,6 +1996,32 @@ section {
     height: 0.3rem;
     background-color: #00b1c0;
 }
+
+.section-title3 h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 20px 0 0 0;
+  color: #00b1c0;
+}
+
+.section-title3 h2::before {
+    content: '';
+    display: block;
+    width:4rem;
+    border-radius: 50px;
+    height: 0.3rem;
+    background-color: #00b1c0;
+}
+
+.section-title3 h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 20px 0 0 0;
+  color: #124265;
+}
+
 
 .section-title p {
   margin-bottom: 0;
@@ -2587,6 +2692,15 @@ border-radius: 5px;
 border: solid 2px #00d6db;
 transition: 0.5s;
 }
+
+
+.cdd .img-btn2{
+width: 450px;
+height: auto;
+border-radius: 5px;
+padding: 20px 0;
+}
+
 
 
 .cdd .service-item p {
@@ -3313,6 +3427,214 @@ transition: 0.5s;
     padding: 0;
   }
 }
+
+
+/*--------------------------------------------------------------
+# Videos Acordeon SOS
+--------------------------------------------------------------*/
+.sos .sos-list {
+  padding: 20px 60px;
+}
+
+.sos .sos-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.sos .sos-list li+li {
+  margin-top: 15px;
+}
+
+.sos .sos-list li {
+  padding: 0px;
+  border-radius: 5px;
+  border-radius: 4px;
+  position: relative;
+}
+
+
+
+.sos .sos-list .list  {
+    display: block;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    font-size: 16px;
+    color: #013549;
+    box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.50);
+    transition: all 0.3s ease-in-out;
+    font-weight: 700!important;
+    line-height: 24px;
+    font-weight: 500;
+    outline: none;
+    cursor: pointer;
+    margin: 0 0 0 125px;
+    padding: 30px;
+}
+
+.sos .sos-list .icon-help {
+    width: 120px;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    color: #00b1c0;
+}
+
+.sos .sos-list .icon-show,
+.sos .sos-list .icon-close {
+    font-size: 50px;
+    position: absolute;
+    right: 15px;
+    top: 35px;
+}
+
+.sos .sos-list p {
+  margin-bottom: 0;
+}
+
+.sos .sos-list .contenido{
+  margin: 10px 10px 10px 45px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.sos .sos-list .icon-show {
+  display: none;
+}
+
+.sos .sos-list a.collapsed{
+  color: #013549;
+  background-color:#fff;
+  border:solid 1px #cfcfcf;
+  border-radius: 5px;
+  font-weight: 600!important;
+}
+
+
+.sos .sos-list a.collapsed:hover {
+  color: #2487ce;
+  font-weight: 700;
+}
+
+.sos .sos-list a.collapsed .icon-show {
+  display: inline-block;
+  color: #00b1c0;
+}
+
+.sos .sos-list a.collapsed .icon-close {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .sos .sos-list {
+    padding: 0;
+  }
+}
+
+
+.sos .cta-btn1 {
+  width: 100%;
+  background: #00b1c0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  padding: 5px 5px;
+  border-radius: 10px;
+  border: 2px solid #00b1c0;
+  transition: 0.5s;
+  margin: 20px 0;
+  color: #fff;
+}
+
+.sos .cta-btn1 i{
+  font-size: 20px;
+  color: #fff;
+}
+
+.sos .cta-btn1:hover {
+  background: #00d6db;
+  color: #fff;
+  border: 2px solid #00d6db;
+}
+
+
+.sos .cta-btn2 {
+  width: 100%;
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 8px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  transition: 0.5s;
+  margin: 20px 0;
+  color: #013549;
+}
+
+.sos .cta-btn2 i{
+  font-size: 20px;
+  color: #afc132;
+}
+
+.sos .cta-btn2:hover {
+  background: #00d6db;
+  color: #fff;
+  border: 2px solid #00d6db;
+}
+
+.sos .cta-btn2:hover i {
+  color: #fff;
+}
+
+
+.sos .cta-btn3 {
+  width: 100%;
+  background: #00b1c0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: 2px solid #00b1c0;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.sos .cta-btn3 i{
+  font-size: 20px;
+  color: #fff;
+  padding-right: 10px;
+}
+
+.sos .cta-btn3:hover {
+  background: #00d6db;
+  color: #fff;
+  border: 2px solid #00d6db;
+}
+
+
+.sos .cont-video{
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.50);
+  padding: 20px;
+}
+
+.sos .cont-body{
+  padding-top: 20px;
+}
+
+.cont-body h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #124265;
+}
+
+
 
 /*--------------------------------------------------------------
 # Contact
