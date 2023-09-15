@@ -4160,14 +4160,14 @@ transition: 0.5s;
 
  .swiper {
       width: 80%;
-      height: auto%;
+      height: 100%;
     }
 
 
  .swiper-slide {
       padding: 60px 10px;
       text-align: center;
-      font-size: 18px;
+      font-size: 14px;
       background: #fff;
       display: flex;
       justify-content: center;

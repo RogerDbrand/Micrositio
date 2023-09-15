@@ -282,6 +282,11 @@
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+
+        // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
       on: {
         resize: function () {
           swiper.changeDirection(getDirection());
@@ -295,3 +300,4 @@
 
       return direction;
     }
+
