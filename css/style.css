@@ -729,9 +729,9 @@ h6 {
   #hero {
     width: 100%;
     background: url("../assets/img/Banner-Home.gif") top center no-repeat;
-    background-size: auto;
+    background-size: contain;
     position: relative;
-    padding: 60px 0 0 0;
+    padding: 0% 0 0 0;
     height: auto;
   }
 }
@@ -742,11 +742,12 @@ h6 {
     background: url("../assets/img/Banner-Home.gif") top center no-repeat;
     background-size: contain;
     position: relative;
-    padding: 60px 0 0 0;
+    padding: 0% 0 0 0;
     height: auto;
-    background-position: center 10px;
+    background-position: center 11%;
   }
 }
+
 
 
 
@@ -986,9 +987,9 @@ h6 {
     background: url("../assets/img/ued/Banner-ued.gif") top center no-repeat;
     background-size: contain;
     position: relative;
-    padding: 60px 0 0 0;
+    padding: 34% 0 0 0;
     height: auto;
-    background-position: center 10px;
+    background-position: center 11%;
   }
 }
 
@@ -1229,9 +1230,9 @@ h6 {
     background: url("../assets/img/competencia/BannerCDD.gif") top center no-repeat;
     background-size: contain;
     position: relative;
-    padding: 60px 0 0 0;
+    padding: 34% 0 0 0;
     height: auto;
-    background-position: center 10px;
+    background-position: center 11%;
   }
 }
 
@@ -1472,9 +1473,9 @@ h6 {
     background: url("../assets/img/recurso/BannerRecursos.gif") top center no-repeat;
     background-size: contain;
     position: relative;
-    padding: 60px 0 0 0;
+    padding: 34% 0 0 0;
     height: auto;
-    background-position: center 10px;
+    background-position: center 11%;
   }
 }
 
@@ -1714,9 +1715,9 @@ h6 {
     background: url("../assets/img/soporte/BannerSoporte.gif") top center no-repeat;
     background-size: contain;
     position: relative;
-    padding: 60px 0 0 0;
+    padding: 34% 0 0 0;
     height: auto;
-    background-position: center 10px;
+    background-position: center 11%;
   }
 }
 
@@ -1957,9 +1958,9 @@ h6 {
     background: url("../assets/img/docente/Banner-Docente.jpg") top center no-repeat;
     background-size: contain;
     position: relative;
-    padding: 60px 0 0 0;
+    padding: 34% 0 0 0;
     height: auto;
-    background-position: center 10px;
+    background-position: center 11%;
   }
 }
 
@@ -2008,9 +2009,9 @@ h6 {
     background: url("../assets/img/estudiante/Banner-Estudiantes.jpg") top center no-repeat;
     background-size: contain;
     position: relative;
-    padding: 60px 0 0 0;
+    padding: 34% 0 0 0;
     height: auto;
-    background-position: center 10px;
+    background-position: center 11%;
   }
 }
 
@@ -2642,9 +2643,9 @@ section {
     background: url("../assets/img/ued/background1.png") top center no-repeat;
     background-size: contain;
     position: relative;
-    padding: 60px 0 0 0;
+    padding: 34% 0 0 0;
     height: auto;
-    background-position: center 10px;
+    background-position: center 11%;
   }
 }
 
