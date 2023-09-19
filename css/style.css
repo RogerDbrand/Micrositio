@@ -717,9 +717,9 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100%;
-  background: url("assets/img/Banner-Home.gif") top center no-repeat;
-  background-size: contain;
+  height: 100vh;
+  background: url("../assets/img/Banner-Home.gif") top center no-repeat;
+  background-size: auto;
   position: relative;
   padding: 10px 0 0 0;
   background-position: center 10px;
@@ -727,13 +727,27 @@ h6 {
 
 @media (max-width: 1600px) {
   #hero {
-  width: 100%;
-  background: url("assets/img/Banner-Home.gif") top center;
-  background-size: cover;
-  position: relative;
-  padding: 60px 0 0 0;
+    width: 100%;
+    background: url("../assets/img/Banner-Home.gif") top center no-repeat;
+    background-size: auto;
+    position: relative;
+    padding: 60px 0 0 0;
+    height: auto;
+  }
 }
+
+@media (min-width: 1601px) {
+  #hero {
+    width: 100%;
+    background: url("../assets/img/Banner-Home.gif") top center no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: 60px 0 0 0;
+    height: auto;
+    background-position: center 10px;
+  }
 }
+
 
 
 #hero:before {
@@ -948,7 +962,7 @@ h6 {
 #ued {
   width: 100%;
   height: 100%;
-  background: url("assets/img/ued/Banner-ued.gif") top center no-repeat;
+  background: url("../assets/img/ued/Banner-ued.gif") top center no-repeat;
   background-size: contain;
   position: relative;
   padding: 550px 0 0 0;
@@ -958,13 +972,15 @@ h6 {
 @media (max-width: 1280px) {
   #ued {
   width: 100%;
-  height: auto%;
-  background: url("assets/img/ued/Banner-ued.gif") top center;
+  height: auto;
+  background: url("../assets/img/ued/Banner-ued.gif") top center;
   background-size: cover;
   position: relative;
   padding: 500px 0 0 0;
 }
 }
+
+
 
 
 #ued:before {
@@ -1179,7 +1195,7 @@ h6 {
 #competencia {
   width: 100%;
   height: 100%;
-  background: url("assets/img/competencia/BannerCDD.gif") top center no-repeat;
+  background: url("../assets/img/competencia/BannerCDD.gif") top center no-repeat;
   background-size: contain;
   position: relative;
   padding: 500px 0 0 0;
@@ -1189,12 +1205,24 @@ h6 {
 @media (max-width: 1280px) {
   #competencia {
   width: 100%;
-  height: auto%;
-  background: url("assets/img/competencia/BannerCDD.gif") top center;
+  height: auto;
+  background: url("../assets/img/competencia/BannerCDD.gif") top center;
   background-size: cover;
   position: relative;
   padding: 400px 0 0 0;
 }
+}
+
+@media (min-width: 1601px) {
+  #hero {
+    width: 100%;
+    background: url("../assets/img/competencia/BannerCDD.gif") top center no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: 60px 0 0 0;
+    height: auto;
+    background-position: center 10px;
+  }
 }
 
 
@@ -1410,7 +1438,7 @@ h6 {
 #recursos {
   width: 100%;
   height: 100%;
-  background: url("assets/img/recurso/BannerRecursos.gif") top center no-repeat;
+  background: url("../assets/img/recurso/BannerRecursos.gif") top center no-repeat;
   background-size: contain;
   position: relative;
   padding: 500px 0 0 0;
@@ -1420,12 +1448,24 @@ h6 {
 @media (max-width: 1280px) {
   #recursos {
   width: 100%;
-  height: auto%;
-  background: url("assets/img/recurso/BannerRecursos.gif") top center;
+  height: auto;
+  background: url("../assets/img/recurso/BannerRecursos.gif") top center;
   background-size: cover;
   position: relative;
   padding: 400px 0 0 0;
 }
+}
+
+@media (min-width: 1601px) {
+  #hero {
+    width: 100%;
+    background: url("../assets/img/recurso/BannerRecursos.gif") top center no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: 60px 0 0 0;
+    height: auto;
+    background-position: center 10px;
+  }
 }
 
 
@@ -1640,7 +1680,7 @@ h6 {
 #soporte {
   width: 100%;
   height: 100%;
-  background: url("assets/img/soporte/BannerSoporte.gif") top center no-repeat;
+  background: url("../assets/img/soporte/BannerSoporte.gif") top center no-repeat;
   background-size: contain;
   position: relative;
   padding: 500px 0 0 0;
@@ -1650,12 +1690,24 @@ h6 {
 @media (max-width: 1280px) {
   #soporte {
   width: 100%;
-  height: auto%;
-  background: url("assets/img/soporte/BannerSoporte.gif") top center;
+  height: auto;
+  background: url("../assets/img/soporte/BannerSoporte.gif") top center;
   background-size: cover;
   position: relative;
   padding: 400px 0 0 0;
 }
+}
+
+@media (min-width: 1601px) {
+  #hero {
+    width: 100%;
+    background: url("../assets/img/soporte/BannerSoporte.gif") top center no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: 60px 0 0 0;
+    height: auto;
+    background-position: center 10px;
+  }
 }
 
 
@@ -1871,7 +1923,7 @@ h6 {
 #docente {
   width: 100%;
   height: auto;
-  background: url("assets/img/docente/Banner-Docente.jpg") top center no-repeat;
+  background: url("../assets/img/docente/Banner-Docente.jpg") top center no-repeat;
   background-size: contain;
   position: relative;
   padding: 480px 0 0 0;
@@ -1881,12 +1933,24 @@ h6 {
 @media (max-width: 1280px) {
   #docente {
   width: 100%;
-  height: auto%;
-  background: url("assets/img/docente/Banner-Docente.jpg") top center;
+  height: auto;
+  background: url("../assets/img/docente/Banner-Docente.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 400px 0 0 0;
 }
+}
+
+@media (min-width: 1601px) {
+  #hero {
+    width: 100%;
+    background: url("../assets/img/docente/Banner-Docente.jpg") top center no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: 60px 0 0 0;
+    height: auto;
+    background-position: center 10px;
+  }
 }
 
 
@@ -1910,7 +1974,7 @@ h6 {
 #estudiante {
   width: 100%;
   height: auto;
-  background: url("assets/img/estudiante/Banner-Estudiantes.jpg") top center no-repeat;
+  background: url("../assets/img/estudiante/Banner-Estudiantes.jpg") top center no-repeat;
   background-size: contain;
   position: relative;
   padding: 480px 0 0 0;
@@ -1920,12 +1984,24 @@ h6 {
 @media (max-width: 1280px) {
   #estudiante {
   width: 100%;
-  height: auto%;
-  background: url("assets/img/estudiante/Banner-Estudiantes.jpg") top center;
+  height: auto;
+  background: url("../assets/img/estudiante/Banner-Estudiantes.jpg") top center;
   background-size: cover;
   position: relative;
   padding: 400px 0 0 0;
 }
+}
+
+@media (min-width: 1601px) {
+  #hero {
+    width: 100%;
+    background: url("../assets/img/estudiante/Banner-Estudiantes.jpg") top center no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: 60px 0 0 0;
+    height: auto;
+    background-position: center 10px;
+  }
 }
 
 
@@ -2532,22 +2608,34 @@ section {
 
 .services {
   width: 100%;
-  height: auto%;
-  background: url("assets/img/ued/background1.png") center no-repeat;
+  height: auto;
+  background: url("../assets/img/ued/background1.png") center no-repeat;
   background-size: cover;
   background-position: right center; /* Coloca la imagen en el centro derecho */
   padding: 60px 10px 10px 10px;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1600px) {
   #services {
   width: 100%;
   height: 100%;
-  background: url("assets/img/ued/background1.png") center no-repeat;
+  background: url("../assets/img/ued/background1.png") center no-repeat;
   background-size: contain;
   background-position: right center; /* Coloca la imagen en el centro derecho */
   padding: 20px;
 }
+}
+
+@media (min-width: 1601px) {
+  #hero {
+    width: 100%;
+    background: url("../assets/img/ued/background1.png") top center no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: 60px 0 0 0;
+    height: auto;
+    background-position: center 10px;
+  }
 }
 
 
@@ -2624,7 +2712,7 @@ section {
 
 .cdd {
   width: 100%;
-  height: auto%;
+  height: auto;
   padding: 0px 10px 10px 10px;
 }
 
