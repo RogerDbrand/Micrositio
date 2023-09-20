@@ -920,9 +920,9 @@ h6 {
 }
 
 #hero .cta-btn1:hover {
-  background: #00d6db;
+  background: #0298a8;
   color: #fff;
-  border: 2px solid #00d6db;
+  border: 2px solid #0298a8;
 }
 
 
@@ -947,9 +947,9 @@ h6 {
 }
 
 #hero .cta-btn2:hover {
-  background: #00d6db;
+  background: #0298a8;
   color: #fff;
-  border: 2px solid #00d6db;
+  border: 2px solid #0298a8;
 }
 
 #hero .cta-btn2:hover i {
@@ -1670,6 +1670,24 @@ h6 {
   color: #013549;
 }
 
+
+
+#recursos .cta-btn2 {
+  width: 100%;
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 8px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  transition: 0.5s;
+  margin-top: 10px;
+  color: #013549;
+}
+
+
 #recursos .cta-btn2 i{
   font-size: 20px;
   color: #afc132;
@@ -1891,9 +1909,9 @@ h6 {
 }
 
 #soporte .cta-btn1:hover {
-  background: #00d6db;
+  background: #0298a8;
   color: #fff;
-  border: 2px solid #00d6db;
+  border: 2px solid #0298a8;
 }
 
 
@@ -1918,9 +1936,9 @@ h6 {
 }
 
 #soporte .cta-btn2:hover {
-  background: #00d6db;
+  background: #0298a8;
   color: #fff;
-  border: 2px solid #00d6db;
+  border: 2px solid #0298a8;
 }
 
 #soporte .cta-btn2:hover i {
@@ -2892,6 +2910,7 @@ padding: 20px 0;
 }
 
 
+
 .objetives .img-btn{
 width: 1000px;
 height: auto;
@@ -2915,6 +2934,160 @@ transform: scale(1.08);
 transition: 0.5s;
 }
 
+
+/*--------------------------------------------------------------
+# objetives banner verde
+--------------------------------------------------------------*/
+.objetives .banner-item {
+  padding: 0px;
+  height: 100%;
+  background: #00acbb;
+  align-items: center;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.15);
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+  z-index: 1;
+margin: 10px;
+}
+
+.objetives .banner-item:hover {
+
+  background: #013549;
+}
+
+.objetives .banner-item .icon {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+
+
+.objetives .banner-item .icon {
+
+  color: #0298a8;
+  font-size: 56px;
+  transition: ease-in-out 0.3s;
+  z-index: 2;
+  position: relative;
+}
+
+
+
+.objetives .banner-item h3 {
+  color: #fff;
+  font-weight: 700;
+  margin: 0 0 10px 10px;
+  padding-bottom: 1px;
+  font-size: 44px;
+  position: relative;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.objetives .banner-item h4 {
+  color: #fff;
+  margin: 0 0 10px 10px;
+  padding-bottom: 1px;
+  font-size: 34px;
+  position: relative;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.objetives .banner-item p {
+  padding: 0 20px;
+  line-height: 24px;
+  font-size: 20px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.objetives .banner-item p:before {
+  content: '';
+  display: block;
+  width:4rem;
+  border-radius: 50px;
+  height: 0.2rem;
+  background-color: #fff;
+  margin-bottom: 3px;
+}
+
+.objetives .banner-item a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.objetives .banner-item a:hover {
+  color: #00d6db;
+  text-decoration: none;
+}
+
+.objetives .banner-item .ptexto {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.objetives .banner-item .readmore {
+  margin-top: 15px;
+  display: inline-block;
+  color: var(--color-primary);
+}
+
+.objetives .banner-item:hover .icon:before {
+  background: #013549;
+}
+
+
+
+
+
+.objetives .banner-item .icon-image {
+  width: 50px;
+  height: auto;
+  z-index: 2;
+  position: absolute;
+  top: 100%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  color: #013549;
+  font-size: 45px;
+}
+
+.objetives .banner-item .icon-image2 {
+  width: 50px;
+  height: auto;
+  z-index: 2;
+  position: absolute;
+  top:60%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  color: #013549;
+  font-size: 20px;
+}
+
+
+@media (max-width: 900px) {
+  .objetives .banner-item .icon-image2 {
+    width: 50px;
+    height: auto;
+    z-index: 2;
+    position: absolute;
+    top:90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    color: #013549;
+    font-size: 20px;
+  }
+}
+
+
+.objetives .banner-item .img-btn {
+  padding: 0;
+
+}
 
 /*--------------------------------------------------------------
 # Cta
@@ -3243,6 +3416,8 @@ transition: 0.5s;
   padding: 0;
 }
 
+
+
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -3470,7 +3645,7 @@ transition: 0.5s;
     display: block;
     position: relative;
     font-family: "Roboto", sans-serif;
-    background-color: #00b1c0;
+    background-color: #0298a8;
     font-size: 16px;
     color: #fff;
     border:solid 1px #cfcfcf;
@@ -3649,14 +3824,14 @@ transition: 0.5s;
 
 .sos .cta-btn1 {
   width: 100%;
-  background: #00b1c0;
+  background: #0298a8;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 16px;
   display: inline-block;
   padding: 5px 5px;
   border-radius: 10px;
-  border: 2px solid #00b1c0;
+  border: 2px solid #0298a8;
   transition: 0.5s;
   margin: 20px 0;
   color: #fff;
@@ -3668,7 +3843,7 @@ transition: 0.5s;
 }
 
 .sos .cta-btn1:hover {
-  background: #00d6db;
+  background: #013549;
   color: #fff;
   border: 2px solid #00d6db;
 }
@@ -3707,7 +3882,7 @@ transition: 0.5s;
 
 .sos .cta-btn3 {
   width: 100%;
-  background: #00b1c0;
+  background: #0298a8;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 16px;
@@ -3726,7 +3901,7 @@ transition: 0.5s;
 }
 
 .sos .cta-btn3:hover {
-  background: #00d6db;
+  background: #013549;
   color: #fff;
   border: 2px solid #00d6db;
 }
