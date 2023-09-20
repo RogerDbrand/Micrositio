@@ -1958,12 +1958,23 @@ h6 {
     background: url("../assets/img/docente/Banner-Docente.jpg") top center no-repeat;
     background-size: contain;
     position: relative;
-    padding: 34% 0 0 0;
+    padding: 25% 0 0 0;
     height: auto;
-    background-position: center 13%;
+    background-position: center 129%;
   }
 }
 
+@media (min-width: 1601px) {
+  #docente {
+    width: 100%;
+    background: url("../assets/img/docente/Banner-Docente.jpg") top center no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: 25% 0 0 0;
+    height: auto;
+    background-position: center 115%;
+  }
+}
 
 #docente:before {
   content: "";
@@ -2009,11 +2020,24 @@ h6 {
     background: url("../assets/img/estudiante/Banner-Estudiantes.jpg") top center no-repeat;
     background-size: contain;
     position: relative;
-    padding: 34% 0 0 0;
+    padding: 25% 0 0 0;
     height: auto;
-    background-position: center 13%;
+    background-position: center 129%;
   }
 }
+
+@media (min-width: 1921px) {
+  #estudiante {
+    width: 100%;
+    background: url("../assets/img/estudiante/Banner-Estudiantes.jpg") top center no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: 25% 0 0 0;
+    height: auto;
+    background-position: center 115%;
+  }
+}
+
 
 
 #estudiante:before {
