@@ -1443,6 +1443,35 @@ h6 {
 }
 
 
+.sos .cta-btn3 {
+  width: 100%;
+  background: #0298a8;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: 2px solid #00b1c0;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.sos .cta-btn3 i{
+  font-size: 20px;
+  color: #fff;
+  padding-right: 10px;
+}
+
+.sos .cta-btn3:hover {
+  background: #013549;
+  color: #fff;
+  border: 2px solid #00d6db;
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Recursos Seccion
 --------------------------------------------------------------*/
@@ -2856,6 +2885,31 @@ padding: 20px 0;
 }
 
 
+.cdd .cta-btn3 {
+  width: 100%;
+  background: #0298a8;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  display: inline-block;
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: 2px solid #00b1c0;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.cdd .cta-btn3 i{
+  font-size: 34px;
+  color: #fff;
+  padding-left: 20px;
+}
+
+.cdd .cta-btn3:hover {
+  background: #013549;
+  color: #fff;
+  border: 2px solid #00d6db;
+}
 
 
 /*--------------------------------------------------------------
@@ -3415,6 +3469,104 @@ margin: 10px;
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+
+/*--------------------------------------------------------------
+# Portfolio icon box
+--------------------------------------------------------------*/
+
+.portfolio .icon-boxes {
+  margin-top: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (min-width: 1500px) {
+  .portfolio .icon-boxes:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(50% + 20px);
+    background-color: #fff;
+  }
+}
+
+.portfolio .icon-box {
+  width: 100%;
+  padding: 10px 15px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.50);
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.portfolio .icon-box h4{
+  color:#fff;
+  background-color: #001B33;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.portfolio .img-icon {
+  width: 150px; 
+  height: 150px;
+}
+
+.portfolio .icon-box .title {
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.portfolio .icon-box p {
+  color:#000;
+}
+
+.portfolio .icon-box .parraf::before {
+  content: '';
+  display: block;
+  width:6rem;
+  border-radius: 50px;
+  height: 0.1rem;
+  background-color: #00b1c0;
+  margin: 1rem auto;
+}
+
+.portfolio .icon-box .title a {
+  color: #013549;
+  transition: 0.3s;
+}
+
+.portfolio .icon-box .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.portfolio .icon-box .icon {
+  padding-top: 10px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  font-size: 40px;
+  line-height: 1;
+  color: #2487ce;
+}
+
+.portfolio .icon-box:hover,
+.portfolio .icon-box:hover .img-icon .img-fluid .parraf {
+  transform: scale(1.08);
+}
+
+.portfolio .icon-box:hover .title a {
+  color: #00d6db;
+}
+
+
+
+
 
 
 
